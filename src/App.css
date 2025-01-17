@@ -1,42 +1,125 @@
 #root {
-  max-width: 1280px;
+  max-width: 2000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+#content {
+  background-color: white;
+  display: block;
+}
+#header {
+  background-color: white;
+  padding: 8px;
+  margin: 0;
+  width: 1500px;
+  display: flex;
+  align-content: center;
+}
+#menuLines {
+  height: 40px;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 45%;
+}
+#wikiLogo {
+  height: 75px;
+  position: relative;
+  margin-left: 20%;
+}
+#search {
+  margin-left: 7%;
+  margin-top: 2%;
+  width: 30%;
+}
+
+#searchBar {
+  background-color: white;
+  padding: 8px;
+  width: 80%;
+  font-size: 11pt; 
+  padding-left: 15px;
+  border: solid black 1px;
+}
+#submitButton {
+  padding: 8px;
+  width: 80px;
+  margin-left: -1px;
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: black;
+  border: solid 1px black;
+}
+div div div a {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px; 
+  padding: 5px;
+  
+}
+
+#links {
+  margin-right: 5px;
+  margin-top: 2%;
+  margin-left: 30%;
+}
+
+#body {
+  position: relative;
+  display: flex;
+}
+
+#contentTable {
+  align-content: left;
+  color: black;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+}
+
+#name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20pt;
+  font-weight: bolder;
+  color: black;
+}
+
+#bio {
+  background-color: #f8f9fa;
+  border: 1px solid black;
   text-align: center;
+  color: black;
+}
+#portrait {
+  width: 300px;
+  margin-top: 15px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#portraitCaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  margin: 0px;
+  padding: 0px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bioInfo {
+  display: flex;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#information {
+  list-style: none;
+  margin-right: 20px;
 }
-
-.card {
-  padding: 2em;
+#titles {
+  list-style: none;
 }
-
-.read-the-docs {
-  color: #888;
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  padding-bottom: 5px;
+}
+#titles li {
+  font-weight: bold;
+}
+ul {
+  list-style: none;
 }
