@@ -50,11 +50,10 @@
   color: black;
   border: solid 1px black;
 }
-div div div a {
+div div div#links a {
   font-family: 'Times New Roman', Times, serif;
   margin: 10px; 
   padding: 5px;
-  
 }
 
 #links {
@@ -89,6 +88,7 @@ div div div a {
   border: 1px solid black;
   text-align: center;
   color: black;
+  max-height: 450px;
 }
 #portrait {
   width: 300px;
@@ -132,11 +132,16 @@ ul {
   margin-left: 40px;
   max-width: 1000px;
 }
-#mainBodyBio {
+.bodyParagraph {
   color: black;
   font-size: 11pt;
   max-width: 500px;
 }
 #mainBodyContent {
   display: flex;
+}
+.sectionTitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 17pt;
 }
