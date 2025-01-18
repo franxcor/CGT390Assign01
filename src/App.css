@@ -78,12 +78,13 @@ div div div a {
 
 #name {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20pt;
-  font-weight: bolder;
+  font-size: 28pt;
+  font-weight: 100;
   color: black;
 }
 
 #bio {
+  margin-left: 40px;
   background-color: #f8f9fa;
   border: 1px solid black;
   text-align: center;
@@ -117,9 +118,25 @@ li {
   font-size: 11pt;
   padding-bottom: 5px;
 }
-#titles li {
+#titles li, p span {
   font-weight: bold;
 }
 ul {
   list-style: none;
+}
+#name {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+#mainBody {
+  margin-left: 40px;
+  max-width: 1000px;
+}
+#mainBodyBio {
+  color: black;
+  font-size: 11pt;
+  max-width: 500px;
+}
+#mainBodyContent {
+  display: flex;
 }
